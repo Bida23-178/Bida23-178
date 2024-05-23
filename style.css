@@ -214,17 +214,16 @@ body {
 .search-bar button:hover {
   background-color: #555;
 }
-/* Reset default browser styles */
-body, h1, h2, p, ul, li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+<style>
+    body {
+      font-size: 18px; /* Adjust the size as needed */
+      line-height: 1.6; /* Improve readability */
+    }
 
-/* Basic styles */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1.5em; /* Adjust heading sizes proportionally */
+    }
+  </style>
 }
 
 .container {
